@@ -16,7 +16,7 @@ To run the algorithms:
 
 For hyperparameter tuning of the algorithms:
 
-1. Open the corresponding '.py' file.
+1. Open the corresponding '.py' file inside the respective algorithm folder.
 2. Modify the parameters you wish to fine-tune.
 3. Adjust the sweep method as required. (We used the 'bayes' sweep method as it is typically more efficient than grid or random search. It uses past results to inform future searches, focusing on the most promising areas of the hyperparameter space.
 
